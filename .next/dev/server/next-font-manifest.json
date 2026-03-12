@@ -1,0 +1,19 @@
+{
+  "app": {
+    "[project]/app/company/page": [
+      "static/media/ad9c66e761fed85a-s.p.bd81a64b.woff2"
+    ],
+    "[project]/app/contact/page": [
+      "static/media/ad9c66e761fed85a-s.p.bd81a64b.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/ad9c66e761fed85a-s.p.bd81a64b.woff2"
+    ],
+    "[project]/app/parkings/page": [
+      "static/media/ad9c66e761fed85a-s.p.bd81a64b.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
