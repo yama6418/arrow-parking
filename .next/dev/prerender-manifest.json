@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/parkings/1":{},"/parkings/2":{},"/parkings/3":{},"/parkings/4":{},"/parkings/5":{},"/parkings/6":{},"/parkings/7":{},"/parkings/8":{},"/parkings/9":{},"/parkings/10":{},"/parkings/11":{},"/parkings/12":{},"/parkings/13":{},"/parkings/14":{},"/parkings/15":{},"/parkings/16":{},"/parkings/17":{},"/parkings/18":{},"/parkings/19":{},"/parkings/20":{},"/parkings/21":{},"/parkings/22":{},"/parkings/23":{}},"dynamicRoutes":{"/parkings/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/parkings/[id]","routeRegex":"^\\/parkings\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"5c18ee8c65776c4c95e8528cdf277fc4","previewModeSigningKey":"370560835a7947f05fa6d1d45ff4d83ad91c82ad4c73ce283a37880fab80d839","previewModeEncryptionKey":"51cde6b03864b485e02ffd044ac6030519f9a6ee34ee7f208361c3ba1cefb971"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "a0793f4ae73452cf87403f36bcb5c8bb",
+    "previewModeSigningKey": "60c7d986383d4c72c794bfe4982bfc2c257de1dc46c3aaa39d209770abae7bc0",
+    "previewModeEncryptionKey": "3cb7db596acd338695f8b1e2e6e84085ec31e010c4e381430ac537d2e41026d3"
+  }
+}
