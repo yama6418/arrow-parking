@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "13ad640fa26b2a728f2357f1e517698d",
-    "previewModeSigningKey": "847788640e06e5d16b0324384917e04b0b127a19d2404239b956466dbd8fe935",
-    "previewModeEncryptionKey": "adccc912e82b3972c3e4f8784e9124a9e71690e8d8d743b3444f429c75abb590"
-  }
-}
+{"version":4,"routes":{"/parkings/1":{},"/parkings/2":{},"/parkings/3":{},"/parkings/4":{},"/parkings/5":{},"/parkings/6":{},"/parkings/7":{},"/parkings/8":{},"/parkings/9":{},"/parkings/10":{},"/parkings/11":{},"/parkings/12":{},"/parkings/13":{},"/parkings/14":{},"/parkings/15":{},"/parkings/16":{},"/parkings/17":{},"/parkings/18":{},"/parkings/19":{},"/parkings/20":{},"/parkings/21":{},"/parkings/22":{},"/parkings/23":{}},"dynamicRoutes":{"/parkings/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/parkings/[id]","routeRegex":"^\\/parkings\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"4a6c9f83bb4e33720d7e6ac91eb9e09e","previewModeSigningKey":"1c06cee0d3d64f6f20d57882973a90f098c01190469c8ca0265debe866ff79eb","previewModeEncryptionKey":"813bd250580beb78304ee5809e5a3fa5ab4a29e80ebd7bbed2b2893ed2069fa5"}}
