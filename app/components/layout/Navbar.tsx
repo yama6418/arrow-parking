@@ -58,10 +58,7 @@ export function Navbar() {
                 )}
               </Link>
             ))}
-            
-              href="tel:03-5428-6822"
-              className="rounded-lg bg-blue-900 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-800 hover:shadow-lg"
-            >
+            <a href="tel:03-5428-6822" className="rounded-lg bg-blue-900 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-800 hover:shadow-lg">
               📞 03-5428-6822
             </a>
           </div>
@@ -105,10 +102,7 @@ export function Navbar() {
                 {item.label}
               </Link>
             ))}
-            
-              href="tel:03-5428-6822"
-              className="block rounded-lg bg-blue-900 px-3 py-2 text-center text-base font-semibold text-white"
-            >
+            <a href="tel:03-5428-6822" className="block rounded-lg bg-blue-900 px-3 py-2 text-center text-base font-semibold text-white">
               📞 03-5428-6822
             </a>
           </div>
