@@ -75,8 +75,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // Google Search Console用（後で設定）
-    // google: "your-verification-code",
+    google: "8-nWDvkRA5IkYHQ293Y5zKh7bqfTMMThiiw_6uqt2RI",
   },
 };
 
@@ -87,6 +86,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
+      <head>
+      </head>
       <body className="min-h-screen bg-gray-50 font-sans antialiased">
         <Navbar />
         <main>{children}</main>
