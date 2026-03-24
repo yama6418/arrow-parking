@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, MapPin, Users, Clock, Shield, CreditCard, Calendar } from "lucide-react";
 import parkingsData from "@/data/parkings.json";
 import type { Parking } from "@/app/types/parking";
-import { ParkingGallery } from "@/app/components/parking/ParkingGallery";
+import ParkingGallery from "@/app/components/parking/ParkingGallery";
 
 const parkings = parkingsData as Parking[];
 
