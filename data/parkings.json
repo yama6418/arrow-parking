@@ -16,7 +16,6 @@
     "description": "赤坂見附駅から徒歩5分。ビジネス街での駐車に便利です。",
     "features": [
       "24時間営業",
-      "防犯カメラ",
       "キャッシュレス決済可"
     ],
     "images": [
@@ -25,7 +24,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-163-110",
-    "receiptOfficeName": "パーサーコールセンター"
+    "receiptOfficeName": "パーサーコールセンター",
+    "priceDetail": "24時間 10分 300円\n【月～土】10時間最大 4,000円 / 夜間(19:00~8:00)最大 1,000円\n【日祝】10時間最大 2,500円 / 夜間(19:00~8:00)最大 1,000円"
   },
   {
     "id": 2,
@@ -43,8 +43,7 @@
     "longitude": 139.6387,
     "description": "下高井戸駅から徒歩8分。住宅街での駐車に適しています。",
     "features": [
-      "24時間営業",
-      "月極駐車可"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/akatsutsumi-1.jpg",
@@ -54,7 +53,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~19:00 30分 200円\n【夜間】19:00~8:00 60分 100円\n【最大料金】24時間最大 1,500円 / 夜間(19:00~8:00)最大 300円"
   },
   {
     "id": 3,
@@ -73,8 +73,7 @@
     "description": "阿佐ヶ谷駅から徒歩3分。駅近の便利な立地です。",
     "features": [
       "24時間営業",
-      "駅近",
-      "防犯カメラ"
+      "駅近"
     ],
     "images": [
       "/images/parkings/asagaya1-1.jpg",
@@ -82,7 +81,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【1-3番車室】\n【昼間】8:00~20:00 10分 200円\n【夜間】20:00~8:00 60分 100円\n【最大料金】24時間最大 3,000円 / 夜間(20:00~8:00)最大 400円\n\n【4番車】\n【昼間】8:00~20:00 15分 200円\n【夜間】20:00~8:00 60分 100円\n【最大料金】24時間最大 2,000円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 4,
@@ -109,7 +109,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-163-110",
-    "receiptOfficeName": "パーサーコールセンター"
+    "receiptOfficeName": "パーサーコールセンター",
+    "priceDetail": "【昼間】8:00~24:00 20分 300円\n【夜間】24:00~8:00 60分 100円\n【最大料金】12時間最大 2,600円"
   },
   {
     "id": 5,
@@ -133,7 +134,8 @@
     "images": [],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~24:00 20分 300円\n【夜間】24:00~8:00 60分 100円\n【最大料金】12時間最大 2,600円"
   },
   {
     "id": 6,
@@ -151,9 +153,7 @@
     "longitude": 139.6142,
     "description": "井荻駅から徒歩5分。住宅街での長時間駐車に適しています。",
     "features": [
-      "24時間営業",
-      "月極駐車可",
-      "防犯カメラ"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/iogi-1.jpg",
@@ -163,7 +163,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~20:00 20分 200円\n【夜間】20:00~8:00 60分 100円\n【最大料金】24時間最大 1,400円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 7,
@@ -191,7 +192,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~22:00 20分 200円\n【夜間】22:00~8:00 60分 100円\n【最大料金】24時間最大 1,800円"
   },
   {
     "id": 8,
@@ -212,7 +214,6 @@
       "24時間営業",
       "大型駐車場",
       "イベント貸切対応",
-      "防犯カメラ",
       "エレベーター完備"
     ],
     "images": [
@@ -223,7 +224,8 @@
     "available": true,
     "parking_type": "large_event_venue",
     "receiptPhoneNumber": "03-3770-2017",
-    "receiptOfficeName": "宇田川町駐車場管理人室"
+    "receiptOfficeName": "宇田川町駐車場管理人室",
+    "priceDetail": "24時間営業\n30分 300円\n24時間最大 3,000円\n※イベント貸切対応可"
   },
   {
     "id": 9,
@@ -242,8 +244,7 @@
     "description": "永福町駅から徒歩5分。商店街でのお買い物に便利です。",
     "features": [
       "24時間営業",
-      "商店街近く",
-      "防犯カメラ"
+      "商店街近く"
     ],
     "images": [
       "/images/parkings/eifukucho-1.jpg",
@@ -252,7 +253,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~22:00 25分 200円\n【夜間】22:00~8:00 60分 100円\n【最大料金】24時間最大 1,400円"
   },
   {
     "id": 10,
@@ -270,15 +272,15 @@
     "longitude": 139.6352,
     "description": "永福町駅から徒歩8分。閑静な住宅街に位置しています。",
     "features": [
-      "24時間営業",
-      "月極駐車可"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/eifukucho2-1.jpg"
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~22:00 15分 200円\n【夜間】22:00~8:00 60分 100円\n【最大料金】24時間最大 1,400円"
   },
   {
     "id": 11,
@@ -298,7 +300,6 @@
     "features": [
       "24時間営業",
       "駅近",
-      "防犯カメラ",
       "EV充電可"
     ],
     "images": [
@@ -308,7 +309,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【月～土】\n【昼間】8:00~24:00 20分 300円\n【夜間】24:00~8:00 60分 200円\n【最大料金】12時間最大 3,200円\n\n【日祝】\n【昼間】8:00~24:00 20分 300円\n【夜間】24:00~8:00 60分 200円\n【最大料金】12時間最大 1,200円"
   },
   {
     "id": 12,
@@ -327,8 +329,7 @@
     "description": "成城学園前駅から徒歩5分。高級住宅街に位置しています。",
     "features": [
       "24時間営業",
-      "高級住宅街",
-      "防犯カメラ"
+      "高級住宅街"
     ],
     "images": [
       "/images/parkings/seijo-1.jpg",
@@ -338,7 +339,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~20:00 15分 100円\n【夜間】20:00~8:00 60分 100円\n【最大料金】12時間最大 1,500円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 13,
@@ -356,9 +358,7 @@
     "longitude": 139.6673,
     "description": "中野新橋駅から徒歩5分。住宅街での長時間駐車に便利です。",
     "features": [
-      "24時間営業",
-      "月極駐車可",
-      "防犯カメラ"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/nakanohonmachi-1.jpg",
@@ -367,7 +367,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-163-110",
-    "receiptOfficeName": "パーサーコールセンター"
+    "receiptOfficeName": "パーサーコールセンター",
+    "priceDetail": "30分 150円\n24時間最大 1,500円"
   },
   {
     "id": 14,
@@ -396,7 +397,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~22:00 20分 200円\n【夜間】22:00~8:00 60分 100円\n【最大料金】24時間最大 2,000円"
   },
   {
     "id": 15,
@@ -416,7 +418,6 @@
     "features": [
       "24時間営業",
       "駅近",
-      "防犯カメラ",
       "キャッシュレス決済可"
     ],
     "images": [
@@ -426,7 +427,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【月～土】\n【昼間】7:00~20:00 15分 200円\n【夜間】20:00~7:00 60分 100円\n【最大料金】24時間最大 3,800円 / 夜間(20:00~8:00)最大 300円\n\n【日祝】\n【昼間】8:00~20:00 最大 1,200円"
   },
   {
     "id": 16,
@@ -452,7 +454,8 @@
     ],
     "available": false,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "※現在休業中\n\n【月～金】\n【昼間】8:00~24:00 15分 300円\n【夜間】24:00~8:00 60分 200円\n\n【土日祝】\n【昼間】8:00~24:00 10分 400円\n【夜間】24:00~8:00 60分 200円"
   },
   {
     "id": 17,
@@ -472,8 +475,7 @@
     "features": [
       "24時間営業",
       "駅近",
-      "商業施設近く",
-      "防犯カメラ"
+      "商業施設近く"
     ],
     "images": [
       "/images/parkings/waseda-1.jpg",
@@ -481,14 +483,15 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-163-110",
-    "receiptOfficeName": "パーサーコールセンター"
+    "receiptOfficeName": "パーサーコールセンター",
+    "priceDetail": "【昼間】8:00~20:00 10分 100円\n【夜間】20:00~8:00 60分 100円\n【最大料金】12時間最大 1,700円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 18,
     "name": "早稲田駐車場",
     "prefecture": "東京都",
     "city": "新宿区",
-    "address": "東京都新宿区早稲田町77",
+    "address": "東京都新宿区馬場下町63",
     "station": "早稲田駅徒歩3分",
     "capacity": 26,
     "price_per_hour": 400,
@@ -500,13 +503,13 @@
     "description": "早稲田駅から徒歩3分。大学・商店街でのご利用に便利です。",
     "features": [
       "24時間営業",
-      "駅近",
-      "防犯カメラ"
+      "駅近"
     ],
     "images": [],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】8:00~20:00 20分 200円\n【夜間】20:00~8:00 60分 100円\n【最大料金】24時間最大 2,500円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 19,
@@ -524,8 +527,7 @@
     "longitude": 139.7234,
     "description": "赤羽駅から徒歩8分。住宅街での駐車に適しています。",
     "features": [
-      "24時間営業",
-      "月極駐車可"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/akabane-1.jpg",
@@ -533,7 +535,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "24時間 30分 200円\n【最大料金】24時間最大 1,400円 / 夜間(20:00~8:00)最大 400円"
   },
   {
     "id": 20,
@@ -553,7 +556,6 @@
     "features": [
       "24時間営業",
       "駅近",
-      "防犯カメラ",
       "屋根付き"
     ],
     "images": [
@@ -564,7 +566,8 @@
     ],
     "available": true,
     "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptOfficeName": "Jシステムコールセンター",
+    "priceDetail": "【昼間】7:00~21:00 15分 100円\n【夜間】21:00~7:00 60分 100円\n【最大料金】12時間最大 1,500円"
   },
   {
     "id": 21,
@@ -584,7 +587,6 @@
     "features": [
       "24時間営業",
       "駅近",
-      "防犯カメラ",
       "繁華街近く"
     ],
     "images": [
@@ -592,8 +594,9 @@
       "/images/parkings/naniwacho-2.jpg"
     ],
     "available": true,
-    "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptPhoneNumber": "0120-890-989",
+    "receiptOfficeName": "日本駐車場メンテナンス株式会社",
+    "priceDetail": "【昼間】8:00~23:00 30分 100円\n【夜間】23:00~8:00 90分 100円\n※最大料金なし"
   },
   {
     "id": 22,
@@ -612,16 +615,16 @@
     "description": "谷町九丁目駅から徒歩5分。生玉神社参拝に便利です。",
     "features": [
       "24時間営業",
-      "神社近く",
-      "防犯カメラ"
+      "神社近く"
     ],
     "images": [
       "/images/parkings/ikeushi-1.jpg",
       "/images/parkings/ikeushi-2.jpg"
     ],
     "available": true,
-    "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptPhoneNumber": "0120-890-989",
+    "receiptOfficeName": "日本駐車場メンテナンス株式会社",
+    "priceDetail": "【昼間】8:00~22:00 15分 100円\n【夜間】22:00~8:00 60分 100円\n※最大料金なし"
   },
   {
     "id": 23,
@@ -639,16 +642,15 @@
     "longitude": 135.4156,
     "description": "尼崎駅から徒歩8分。阪神エリアでの駐車に便利です。",
     "features": [
-      "24時間営業",
-      "防犯カメラ",
-      "月極駐車可"
+      "24時間営業"
     ],
     "images": [
       "/images/parkings/higashinaniwa-1.jpg",
       "/images/parkings/higashinaniwa-2.jpg"
     ],
     "available": true,
-    "receiptPhoneNumber": "0120-088-707",
-    "receiptOfficeName": "Jシステムコールセンター"
+    "receiptPhoneNumber": "0120-890-989",
+    "receiptOfficeName": "日本駐車場メンテナンス株式会社",
+    "priceDetail": "30分 150円\n24時間最大 1,500円"
   }
 ]
