@@ -16,24 +16,22 @@ export const metadata: Metadata = {
     ? `https://yama6418.github.io${process.env.NEXT_PUBLIC_BASE_PATH}` 
     : 'http://localhost:3000'),
   title: {
-    default: "アローパーキング | コインパーキング・時間貸駐車場運営",
+    default: "アローパーキング | 安心と信頼の駐車場運営",
     template: "%s | アローパーキング",
   },
-  description: "東京・大阪・宮城でコインパーキング・時間貸駐車場23箇所、396台を運営。30年以上の実績で安心。24時間営業・防犯カメラ完備・クレジットカード対応。月極駐車場・土地活用サービスも提供。",
+  description: "東京・大阪・宮城で23箇所、396台の駐車場を運営。30年以上の実績で安心してご利用いただけます。24時間営業・防犯カメラ完備・クレジットカード対応。",
   keywords: [
     "駐車場",
-    "コインパーキング",
     "時間貸し駐車場",
-    "時間貸駐車場",
-    "東京駐車場",
-    "渋谷駐車場",
-    "大阪駐車場",
-    "宮城駐車場",
+    "コインパーキング",
+    "東京",
+    "渋谷",
+    "大阪",
+    "宮城",
     "アローパーキング",
     "24時間営業",
     "月極駐車場",
     "土地活用",
-    "駐車場経営",
   ],
   authors: [{ name: "株式会社アローパーキング" }],
   creator: "株式会社アローパーキング",
@@ -48,8 +46,8 @@ export const metadata: Metadata = {
     locale: "ja_JP",
     url: "/",
     siteName: "アローパーキング",
-    title: "アローパーキング | コインパーキング・時間貸駐車場運営",
-    description: "東京・大阪・宮城でコインパーキング23箇所を運営。30年以上の実績で安心してご利用いただけます。",
+    title: "アローパーキング | 安心と信頼の駐車場運営",
+    description: "東京・大阪・宮城で23箇所、396台の駐車場を運営。30年以上の実績で安心してご利用いただけます。",
     images: [
       {
         url: "/logo.png",
@@ -61,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "アローパーキング | コインパーキング・時間貸駐車場運営",
-    description: "東京・大阪・宮城でコインパーキング23箇所を運営。30年以上の実績。",
+    title: "アローパーキング | 安心と信頼の駐車場運営",
+    description: "東京・大阪・宮城で23箇所、396台の駐車場を運営。30年以上の実績。",
     images: ["/logo.png"],
   },
   robots: {
@@ -77,7 +75,8 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "8-nWDvkRA5IkYHQ293Y5zKh7bqfTMMThiiw_6uqt2RI",
+    // Google Search Console用（後で設定）
+    // google: "your-verification-code",
   },
 };
 
@@ -88,9 +87,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
-      <head>
-      </head>
       <body className="min-h-screen bg-gray-50 font-sans antialiased">
+        <meta name="google-site-verification" content="8-nWDvkRA5IkYHQ293Y5zKh7bqfTMMThiiw_6uqt2RI" />
         <Navbar />
         <main>{children}</main>
         <Footer />

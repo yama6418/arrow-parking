@@ -3,24 +3,23 @@ import parkingsData from "@/data/parkings.json";
 import type { Parking } from "@/app/types/parking";
 import { ParkingCard } from "@/app/components/parking/ParkingCard";
 import ParkingGallery from "@/app/components/parking/ParkingGallery";
+import { Phone } from "lucide-react";
 import Link from "next/link";
 
 const parkings = parkingsData as Parking[];
 
 export function generateStaticParams() {
   return parkings.map((parking) => ({
-    id: String(parking.id),
+    id: parking.id.toString(),
   }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: { id: string };
 }): Promise<Metadata> {
-  const { id } = await params;
-  const parkingId = parseInt(id, 10);
-  const parking = parkings.find((p) => p.id === parkingId);
+  const parking = parkings.find((p) => p.id === parseInt(params.id));
 
   if (!parking) {
     return {
@@ -66,13 +65,8 @@ export async function generateMetadata({
   };
 }
 
-export default function ParkingPage(props: {
-  params: Promise<{ id: string }>;
-}) {
-  const params = require("react").use(props.params);
-  const id = params.id;
-  const parkingId = parseInt(id, 10);
-  const parking = parkings.find((p) => p.id === parkingId);
+export default function ParkingPage({ params }: { params: { id: string } }) {
+  const parking = parkings.find((p) => p.id === parseInt(params.id));
 
   if (!parking) {
     return (
@@ -97,66 +91,9 @@ export default function ParkingPage(props: {
     )
     .slice(0, 3);
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  const fullUrl = `https://yama6418.github.io${basePath}/parkings/${parking.id}`;
-  const imageUrl = `https://yama6418.github.io${basePath}${parking.images[0]}`;
-
-  // JSON-LD データ
-  const parkingJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ParkingFacility",
-    name: parking.name,
-    description: parking.description,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: parking.address,
-      addressLocality: parking.city,
-      addressRegion: parking.prefecture,
-      addressCountry: "JP",
-    },
-    telephone: parking.receiptPhoneNumber || "03-5428-6822",
-    url: fullUrl,
-    image: imageUrl,
-    priceRange: parking.pricePerHour,
-    capacity: parking.capacity,
-  };
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "ホーム",
-        item: `https://yama6418.github.io${basePath}/`,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "駐車場を探す",
-        item: `https://yama6418.github.io${basePath}/parkings`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: parking.name,
-        item: fullUrl,
-      },
-    ],
-  };
-
   return (
     <div className="min-h-screen bg-gray-50">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(parkingJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
-
+      {/* ヘッダー */}
       <div className="bg-gradient-to-br from-blue-900 to-blue-800 px-4 py-8 text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <div className="mb-2 flex items-center gap-2">
@@ -170,11 +107,14 @@ export default function ParkingPage(props: {
         </div>
       </div>
 
+      {/* メインコンテンツ */}
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        {/* ギャラリー */}
         <div className="mb-8">
           <ParkingGallery name={parking.name} images={parking.images} />
         </div>
 
+        {/* 詳細情報 */}
         <div className="grid gap-8 md:grid-cols-3">
           <div className="md:col-span-2">
             <section className="mb-8">
@@ -211,19 +151,6 @@ export default function ParkingPage(props: {
               </div>
             </section>
 
-            {parking.priceDetail && (
-              <section className="mb-8">
-                <h2 className="mb-4 text-2xl font-bold text-gray-900">
-                  料金詳細
-                </h2>
-                <div className="rounded-lg bg-blue-50 p-6 border-l-4 border-blue-600">
-                  <p className="text-sm text-gray-800 whitespace-pre-line font-mono leading-relaxed">
-                    {parking.priceDetail}
-                  </p>
-                </div>
-              </section>
-            )}
-
             <section className="mb-8">
               <h2 className="mb-4 text-2xl font-bold text-gray-900">
                 説明
@@ -250,6 +177,7 @@ export default function ParkingPage(props: {
             )}
           </div>
 
+          {/* サイドバー */}
           <div>
             <div className="sticky top-20 rounded-lg bg-white p-6 shadow-sm">
               <h3 className="mb-4 text-xl font-bold text-gray-900">
@@ -258,14 +186,23 @@ export default function ParkingPage(props: {
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-gray-600 mb-1">電話</p>
-                  <a href={`tel:${parking.receiptPhoneNumber || "03-5428-6822"}`} className="text-lg font-bold text-blue-600 hover:underline">
+                  <a
+                    href={`tel:${parking.receiptPhoneNumber || "03-5428-6822"}`}
+                    className="text-lg font-bold text-blue-600 hover:underline"
+                  >
                     {parking.receiptPhoneNumber || "03-5428-6822"}
                   </a>
                 </div>
-                <a href={`tel:${parking.receiptPhoneNumber || "03-5428-6822"}`} className="block rounded-lg bg-blue-900 px-4 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-800">
+                
+                  href={`tel:${parking.receiptPhoneNumber || "03-5428-6822"}`}
+                  className="block rounded-lg bg-blue-900 px-4 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-800"
+                
                   📞 今すぐ電話する
                 </a>
-                <Link href="/contact" className="block rounded-lg bg-blue-100 px-4 py-3 text-center text-sm font-bold text-blue-900 transition-all hover:bg-blue-200">
+                <Link
+                  href="/contact"
+                  className="block rounded-lg bg-blue-100 px-4 py-3 text-center text-sm font-bold text-blue-900 transition-all hover:bg-blue-200"
+                >
                   ✉️ メール問い合わせ
                 </Link>
               </div>
@@ -273,6 +210,7 @@ export default function ParkingPage(props: {
           </div>
         </div>
 
+        {/* 関連駐車場 */}
         {relatedParkings.length > 0 && (
           <section className="mt-12 border-t border-gray-200 pt-12">
             <h2 className="mb-6 text-2xl font-bold text-gray-900">
