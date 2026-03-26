@@ -58,10 +58,10 @@ export function Navbar() {
                 )}
               </Link>
             ))}
-            <a>
+            <a
               href="tel:03-5428-6822"
               className="rounded-lg bg-blue-900 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-800 hover:shadow-lg"
-            
+            >
               📞 03-5428-6822
             </a>
           </div>
