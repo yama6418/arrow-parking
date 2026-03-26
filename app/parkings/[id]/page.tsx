@@ -193,11 +193,11 @@ export default function ParkingPage({ params }: { params: { id: string } }) {
                     {parking.receiptPhoneNumber || "03-5428-6822"}
                   </a>
                 </div>
-                
+                <a
                   href={`tel:${parking.receiptPhoneNumber || "03-5428-6822"}`}
                   className="block rounded-lg bg-blue-900 px-4 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-800"
-                
-                  📞 今すぐ電話する
+                >
+                  📞今すぐ電話する
                 </a>
                 <Link
                   href="/contact"
