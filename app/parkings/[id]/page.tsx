@@ -263,7 +263,7 @@ export default async function ParkingPage({ params }: { params: Promise<{ id: st
                     rel="noopener noreferrer"
                     className="block rounded-lg bg-green-600 px-4 py-3 text-center text-sm font-bold text-white transition-all hover:bg-green-500"
                   >
-                    📅 オンライン予約
+                
                   </a>
                 )}
               </div>
