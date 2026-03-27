@@ -64,6 +64,12 @@ export default function ContactPage() {
           {/* お問い合わせフォーム（説明のみ） */}
           <div className="rounded-xl bg-white p-8 shadow-sm">
             <h2 className="mb-6 text-2xl font-bold text-gray-900">メールでのお問い合わせ</h2>
+            <a
+              href="mailto:info@arrowparking.info"
+              className="inline-block rounded-lg bg-blue-900 px-8 py-4 text-lg font-bold text-white transition-all hover:bg-blue-800 hover:shadow-lg"
+            >
+              ✉️ info@arrowparking.info
+            </a>
             <p className="mb-6 text-gray-600">
               お問い合わせは、お電話またはFAXにて承っております。
               お気軽にご連絡ください。
