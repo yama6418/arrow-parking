@@ -320,7 +320,7 @@
     "city": "世田谷区",
     "address": "東京都世田谷区成城2-40-5",
     "station": "成城学園前駅徒歩5分",
-    "capacity": 19,
+    "capacity": 20,
     "price_per_hour": 350,
     "price_per_day": 1800,
     "pricePerHour": "15分 100円",
