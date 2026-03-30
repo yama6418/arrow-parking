@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://yama6418.github.io/arrow-parking/sitemap.xml
+Sitemap: http://localhost:3000/sitemap.xml
