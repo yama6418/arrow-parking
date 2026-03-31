@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "駐車場を探す",
-  description: "全23箇所の駐車場から検索。東京19箇所、宮城1箇所、大阪2箇所、兵庫1箇所。24時間営業・防犯カメラ完備・クレジットカード対応。エリアで絞り込み検索が可能です。",
+  description: "全24箇所の駐車場から検索。東京20箇所、宮城1箇所、大阪2箇所、兵庫1箇所。24時間営業・クレジットカード対応。エリアで絞り込み検索が可能です。",
   keywords: [
     "駐車場検索",
     "駐車場一覧",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "駐車場を探す | アローパーキング",
-    description: "全23箇所の駐車場から検索。エリア別に絞り込み可能。",
+    description: "全24箇所の駐車場から検索。エリア別に絞り込み可能。",
     type: "website",
   },
   alternates: {
