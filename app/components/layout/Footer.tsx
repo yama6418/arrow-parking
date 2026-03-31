@@ -45,9 +45,6 @@ export function Footer() {
           <div>
             <h3 className="mb-4 font-semibold text-white">サポート</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="transition-colors hover:text-white">利用規約</Link></li>
-              <li><Link href="/" className="transition-colors hover:text-white">プライバシーポリシー</Link></li>
-              <li><Link href="/" className="transition-colors hover:text-white">よくある質問</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-white">お問い合わせ</Link></li>
             </ul>
           </div>
