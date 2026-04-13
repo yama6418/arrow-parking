@@ -62,7 +62,7 @@
     "prefecture": "東京都",
     "city": "杉並区",
     "address": "東京都杉並区阿佐谷北1-8-12",
-    "station": "阿佐ヶ谷駅徒歩3分",
+    "station": "阿佐ヶ谷駅徒歩5分",
     "capacity": 4,
     "price_per_hour": 300,
     "price_per_day": 1800,
@@ -70,7 +70,7 @@
     "pricePerDay": "最大 3,000円",
     "latitude": 35.70667545938085,
     "longitude": 139.63938538954628,
-    "description": "阿佐ヶ谷駅から徒歩3分。駅近の便利な立地です。",
+    "description": "阿佐ヶ谷駅から徒歩5分。駅近の便利な立地です。",
     "features": [
       "24時間営業",
       "駅近"
