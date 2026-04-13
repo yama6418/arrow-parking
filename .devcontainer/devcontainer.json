@@ -1,10 +1,10 @@
 {
   "name": "arrow-parking-homepage",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/aquaproj/devcontainer-features/aqua-installer:1": {}
+  "postCreateCommand": "curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/v3.1.1/aqua-installer && chmod +x aqua-installer && ./aqua-installer && rm aqua-installer && aqua i -l && pnpm install",
+  "remoteEnv": {
+    "PATH": "${containerEnv:HOME}/.local/share/aquaproj-aqua/bin:${containerEnv:PATH}"
   },
-  "postCreateCommand": "aqua i -l && pnpm install",
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {
