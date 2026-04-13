@@ -90,10 +90,9 @@ export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua
 ## セットアップ
 
 ```bash
-task dev
+aqua i -l
+pnpm install
 ```
-
-初回実行時に `aqua i -l` と `pnpm install` が自動で走り、必要なツール (Node.js, pnpm) のインストールと依存パッケージの取得が行われます。
 
 ## 開発コマンド
 
